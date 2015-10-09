@@ -5,7 +5,6 @@ var {
   AppRegistry,
 } = React;
 
-process.env.PLATFORM = 'android';
 var NodeREPL = require('./lib/components/NodeREPL');
 
 AppRegistry.registerComponent('NodeREPL', () => NodeREPL);

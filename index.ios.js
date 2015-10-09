@@ -6,9 +6,8 @@ var {
   StatusBarIOS,
 } = React;
 
-StatusBarIOS.setStyle('light-content');
-
-process.env.PLATFORM = 'ios';
 var NodeREPL = require('./lib/components/NodeREPL');
+
+StatusBarIOS.setStyle('light-content');
 
 AppRegistry.registerComponent('NodeREPL', () => NodeREPL);
