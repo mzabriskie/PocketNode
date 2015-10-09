@@ -1,6 +1,5 @@
 'use strict';
 
-var NodeREPL = require('./lib/components/NodeREPL');
 var React = require('react-native');
 var {
   AppRegistry,
@@ -8,5 +7,8 @@ var {
 } = React;
 
 StatusBarIOS.setStyle('light-content');
+
+process.env.PLATFORM = 'ios';
+var NodeREPL = require('./lib/components/NodeREPL');
 
 AppRegistry.registerComponent('NodeREPL', () => NodeREPL);
