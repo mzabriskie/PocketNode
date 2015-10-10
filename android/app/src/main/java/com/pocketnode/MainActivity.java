@@ -1,4 +1,4 @@
-package com.noderepl;
+package com.pocketnode;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -30,7 +30,7 @@ public class MainActivity extends Activity implements DefaultHardwareBackBtnHand
                 .setInitialLifecycleState(LifecycleState.RESUMED)
                 .build();
 
-        mReactRootView.startReactApplication(mReactInstanceManager, "NodeREPL", null);
+        mReactRootView.startReactApplication(mReactInstanceManager, "PocketNode", null);
 
         setContentView(mReactRootView);
     }

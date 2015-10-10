@@ -5,6 +5,6 @@ var {
   AppRegistry,
 } = React;
 
-var NodeREPL = require('./lib/components/NodeREPL');
+var PocketNode = require('./lib/components/PocketNode');
 
-AppRegistry.registerComponent('NodeREPL', () => NodeREPL);
+AppRegistry.registerComponent('PocketNode', () => PocketNode);
