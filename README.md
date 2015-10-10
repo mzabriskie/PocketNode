@@ -32,6 +32,6 @@ __Troubleshooting:__
 - For iOS make sure you are running Xcode 6.3 or newer.
 - If you get `"Cannot read property 'root' of null"` update watchman:
 ```bash
-$brew update
-$brew upgrade watchman
+$ brew update
+$ brew upgrade watchman
 ```
