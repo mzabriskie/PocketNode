@@ -6,7 +6,7 @@ var {
   StatusBarIOS,
 } = React;
 
-var PocketNode = require('./lib/components/PocketNode');
+var PocketNode = require('./app/components/PocketNode');
 
 StatusBarIOS.setStyle('light-content');
 
