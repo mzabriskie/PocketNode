@@ -2,6 +2,8 @@
 
 Lightweight Node REPL for iOS and Android
 
+![Screenshot](https://cloud.githubusercontent.com/assets/199035/10439739/49d80e60-70f9-11e5-94b1-16e06eeb3a8f.png)
+
 ## Developing
 
 ```bash
