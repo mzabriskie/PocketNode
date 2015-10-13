@@ -24,16 +24,16 @@ module.exports = StyleSheet.create({
   view: {
     flex: 1,
     flexDirection: 'row',
-    marginTop: isAndroid ? - 5.75 : 0,
+    marginTop: isAndroid ? - 6.75 : 0,
   },
 
   caret: {
     width: isAndroid ? 11 : 14.25,
-    marginTop: isAndroid ? 5.75 : 0,
+    marginTop: isAndroid ? 6.75 : 0,
   },
 
   input: {
-    height: isAndroid ? 33 : 15,
+    height: isAndroid ? 34 : 15,
     flex: 1,
     backgroundColor: 'transparent',
   },
