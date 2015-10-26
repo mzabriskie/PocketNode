@@ -72,7 +72,7 @@ module.exports = React.createClass({
         style={styles.container}
         onLayout={this.handleLayoutChange}>
         <Text style={styles.text}>$ pocket-node</Text>
-        {this.state.io.map((row) => <Item row={row}/>)}
+        {this.state.io.map((row) => <Item row={row} key={row.id}/>)}
         <View style={styles.view}>
           <Text style={[styles.text, styles.caret]}>> </Text>
           <TextInput

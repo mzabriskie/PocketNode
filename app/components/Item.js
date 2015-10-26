@@ -21,7 +21,7 @@ module.exports = React.createClass({
   render: function () {
     var row = this.props.row;
     return (
-      <Text style={styles.text} key={row.id}>
+      <Text style={styles.text}>
         {row.type === 'in' ? '> ' : ''}
         {row.type === 'out' ? format(row.value) : row.value}
       </Text>
